@@ -3,8 +3,8 @@ import face_recognition
 import numpy as np
 
 #taking input pictures
-img1=cv2.imread("WIN_20220322_12_50_53_Pro.jpg")
-img2=cv2.imread("WIN_20220322_20_53_31_Pro.jpg")
+img1=cv2.imread("image1")
+img2=cv2.imread("image2")
 
 #converting BGR to RGB
 rgb1=cv2.cvtColor(img1,cv2.COLOR_BGR2RGB)
